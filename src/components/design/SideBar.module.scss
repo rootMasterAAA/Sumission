@@ -1,0 +1,24 @@
+aside{
+    height: 100%;
+    width: 200px;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #00539C;
+}
+.menu-item{
+    height: 100%;
+    padding: 20px;
+    color: white;
+}
+.menu-item:hover{
+    text-decoration: underline;
+    background-color: #EEA47F;
+    cursor: pointer;
+}
+.menu-item-text{
+    margin-left: .5rem;
+}

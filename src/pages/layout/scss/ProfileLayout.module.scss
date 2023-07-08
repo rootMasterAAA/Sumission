@@ -1,0 +1,19 @@
+.profile-wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-content{
+    max-width: 1920px;
+    min-width: 1080px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.profile-section{
+    width: 880px;
+}

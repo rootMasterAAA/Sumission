@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.item{
+    margin: 0px 2rem 0px 2rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: #C2C2C2;
+    cursor: pointer;
+}
+.item:hover{
+    text-decoration: underline;
+}
+.head-wrapper{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1920px;
+    min-width: 1080px;
+}
+.nav-text{
+    margin-left: 5px;
+}
+.head-logo {
+    width: 40px;
+    height: 40px;
+}
+.head-navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wallet-btn{
+    letter-spacing: 3px;
+    padding: 10px;
+    background: linear-gradient(90deg, #d427fc, #b349ee);
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}

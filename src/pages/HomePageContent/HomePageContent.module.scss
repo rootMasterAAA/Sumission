@@ -1,0 +1,146 @@
+.introduction-block{
+    margin-top: 0.5rem;
+    max-width: 1920px;
+    min-width: 1080px;
+    height: 500px;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+.vertical-line{
+    position: absolute;
+    background-color: aliceblue;
+    right: calc(50% - 10px);
+    z-index: 10;
+    width: 3px;
+    height: 50%;
+}
+.not-login{
+    height: 100%
+}
+.text-introduction{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    float: left;
+}
+.content{
+    margin-top: 10px;
+}
+.text-introduction > p {
+    float: left;
+    color: white;
+    font-size: 42px;
+    white-space: pre-line;
+    text-align: right;
+}
+.text-introduction > span{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: right;
+    letter-spacing: 0.3px;
+}
+.pic-introduction{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.button-section{
+    position: relative;
+    top: 1rem;
+    display: flex;
+    justify-content:flex-end;
+    width: 50%;
+}
+.signup-btn{
+    margin-left: 1rem;
+}
+.signup-btn, .login-btn{
+    cursor: pointer;
+    border-radius: 10px;
+    background: #b1b1f5;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+.signup-btn:hover, .login-btn:hover{
+    background-color: #9796f0;
+    text-decoration: underline;
+}
+.slicing-memeber-block{
+    margin-top: 2rem;
+    max-width: 1920px;
+    min-width: 1080px;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    position: relative;
+}
+hr{
+    height: 5px;
+    background-color: #b1b1f5;
+    border: 0;
+}
+.content{
+    margin-top: 20px;
+    background-color: #909499;
+    padding: .45rem;
+    border-radius: 3px;
+}
+.card > span {
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #b1b1f5;
+    position: relative;
+    top: .5rem;
+}
+.card{
+    position: relative;
+    flex-basis: 25%;
+    border: 2px #DCE4EB solid;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content > p {
+    color: aliceblue;
+    font-size: 16px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login > p{
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login > button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #b1b1f5;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+.login > button:hover{
+    text-decoration: underline;
+}
